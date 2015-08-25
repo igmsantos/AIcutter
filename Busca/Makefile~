@@ -1,0 +1,14 @@
+CPPFLAGS= -g -pg -O2 -static -march=athlon-xp -lfann
+CC=g++
+all: Busca dump
+
+TINYXML=tinyxml.o tinyxmlparser.o tinyxmlerror.o tinystr.o
+
+Busca: Griffon.o Cerebro.o Cortex.o Lobo.o DocumentoIA.o ArquivoXML.o Documento.o PaginaXML.o Pagina.o Bloco.o LinhaXML.o Linha.o Palavra.o Texto.o Letra.o Caracteristicas.o funcoes.o ${TINYXML} 
+
+clean: 
+		rm -rf *.o Busca dump tmp callgrind* massif*
+
+dump: ${TINYXML} dump.o
+	${CC} ${CPPFLAGS} ${TINYXML} dump.o -o dump	
+# DO NOT DELETE

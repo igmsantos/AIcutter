@@ -1,0 +1,82 @@
+Griffon.cpp: In member function 'CDocumentoIA* CGriffon::buscaDocumentos()':
+Griffon.cpp:16: warning: deprecated conversion from string constant to 'char*'
+Griffon.cpp: In member function 'int CGriffon::identificaLinhas()':
+Griffon.cpp:64: warning: control reaches end of non-void function
+Cerebro.cpp: In function 'void textcolor_str(char*, int, int, int)':
+Cerebro.cpp:28: warning: embedded '\0' in format
+Cerebro.cpp:25: warning: unused variable 'command'
+Cerebro.cpp: In function 'int callback_html(FANN::neural_net&, FANN::training_data&, unsigned int, unsigned int, float, unsigned int, void*)':
+Cerebro.cpp:185: warning: unknown conversion type character ')' in format
+Cerebro.cpp:185: warning: unknown conversion type character ')' in format
+Cerebro.cpp:185: warning: embedded '\0' in format
+Cerebro.cpp:186: warning: embedded '\0' in format
+Cerebro.cpp:187: warning: embedded '\0' in format
+Cerebro.cpp:195: warning: format '%f' expects type 'double', but argument 3 has type 'int'
+Cerebro.cpp: In member function 'CCerebro* CCerebro::setAtencao(void*, int)':
+Cerebro.cpp:357: warning: embedded '\0' in format
+Cerebro.cpp:358: warning: embedded '\0' in format
+Cerebro.cpp:359: warning: embedded '\0' in format
+Cerebro.cpp:360: warning: embedded '\0' in format
+Cerebro.cpp:362: warning: embedded '\0' in format
+Cerebro.cpp:363: warning: embedded '\0' in format
+Cerebro.cpp:364: warning: embedded '\0' in format
+Cerebro.cpp:365: warning: embedded '\0' in format
+Cerebro.cpp: In member function 'fann_type* CCerebro::getDiferencas()':
+Cerebro.cpp:441: warning: unused variable 'count'
+Cerebro.cpp:442: warning: unused variable 'caracteristicas'
+Cerebro.cpp: In member function 'fann_type** CCerebro::getDadosOriginais()':
+Cerebro.cpp:462: warning: unused variable 'i'
+Cerebro.cpp:462: warning: unused variable 'u'
+Cerebro.cpp: In member function 'fann_type** CCerebro::getDadosDeduzidos()':
+Cerebro.cpp:603: warning: unused variable 'u'
+DocumentoIA.cpp: In member function 'fann_type** CDocumentoIA::getCaracteristicasVisuais()':
+DocumentoIA.cpp:67: warning: unused variable 'palavra'
+DocumentoIA.cpp: In member function 'fann_type** CDocumentoIA::getCaracteristicasEspaciais()':
+DocumentoIA.cpp:120: warning: unused variable 'palavra'
+DocumentoIA.cpp: In member function 'fann_type** CDocumentoIA::getCaracteristicasEstatisticas()':
+DocumentoIA.cpp:173: warning: unused variable 'u'
+DocumentoIA.cpp:180: warning: unused variable 'info_linha'
+DocumentoIA.cpp:184: warning: unused variable 'ultima_palavra'
+DocumentoIA.cpp:185: warning: unused variable 'texto'
+DocumentoIA.cpp:188: warning: unused variable 'tamanho_entradas'
+DocumentoIA.cpp: In member function 'fann_type** CDocumentoIA::getCaracteristicasClassificatorias()':
+DocumentoIA.cpp:292: warning: unused variable 'tamanho'
+DocumentoIA.cpp:299: warning: unused variable 'entradas_originais'
+DocumentoIA.cpp:338: warning: unused variable 'max'
+DocumentoIA.cpp: In member function 'int CDocumentoIA::reproduzCaracteristicasClassificatorias(fann_type**, int)':
+DocumentoIA.cpp:381: warning: unused variable 'tamanho'
+ArquivoXML.cpp: In member function 'CPaginaXML* CArquivoXML::getPaginas()':
+ArquivoXML.cpp:149: warning: unused variable 'count'
+ArquivoXML.cpp: In member function 'CArquivoXML& CArquivoXML::setIndice(CLetra*)':
+ArquivoXML.cpp:403: warning: control reaches end of non-void function
+Documento.cpp: In member function 'CPagina* CDocumento::getPaginas()':
+Documento.cpp:86: warning: format '%p' expects type 'void*', but argument 2 has type 'int'
+Documento.cpp: In member function 'CDocumento& CDocumento::setIndice(CLetra*)':
+Documento.cpp:219: warning: control reaches end of non-void function
+Pagina.cpp: In member function 'CLinha* CPagina::getLinhas()':
+Pagina.cpp:60: warning: comparison between signed and unsigned integer expressions
+Pagina.cpp:95: warning: comparison between signed and unsigned integer expressions
+Pagina.cpp: In member function 'CPalavra* CPagina::getPalavras()':
+Pagina.cpp:112: warning: unused variable 'count'
+Pagina.cpp: In member function 'CPagina& CPagina::setIndice(CLetra*)':
+Pagina.cpp:155: warning: control reaches end of non-void function
+Bloco.cpp: In constructor 'CBloco::CBloco(char*, CTexto*, int, size_t)':
+Bloco.cpp:18: warning: suggest explicit braces to avoid ambiguous 'else'
+Bloco.cpp: In member function 'CLinha* CBloco::getLinhas()':
+Bloco.cpp:39: warning: comparison between signed and unsigned integer expressions
+Bloco.cpp:63: warning: comparison between signed and unsigned integer expressions
+Bloco.cpp: In member function 'CPalavra* CBloco::getPalavras()':
+Bloco.cpp:73: warning: unused variable 'count'
+LinhaXML.cpp:275:15: warning: "/*" within comment
+LinhaXML.cpp: In member function 'info_t* CLinhaXML::getInfo()':
+LinhaXML.cpp:41: warning: unused variable 'anterior'
+Linha.cpp: In member function 'CPalavra* CLinha::getPalavras()':
+Linha.cpp:48: warning: comparison between signed and unsigned integer expressions
+Linha.cpp: In member function 'CLinha& CLinha::setIndice(CLetra*)':
+Linha.cpp:158: warning: control reaches end of non-void function
+Texto.cpp: In member function 'int CTexto::getTamanho()':
+Texto.cpp:126: warning: control reaches end of non-void function
+Letra.cpp: In member function 'void CLetra::Listar()':
+Letra.cpp:78: warning: too many arguments for format
+Busca.cpp: In function 'char show_letra(CLetra*)':
+Busca.cpp:49: warning: control reaches end of non-void function
