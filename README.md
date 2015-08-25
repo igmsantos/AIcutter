@@ -16,8 +16,8 @@
     - Classificação dos clientes
  
   Processo de analise do documento:
-  - Griffon -> Pede ao cerebro para se concentrar no documento ( CCerebro::setAtencao() )
-  - Griffon -> Pede ao cerebro para analisar os dados do doumento ( CCerebro::analisaCaracteristicas() )
+  - Worker -> Pede ao cerebro para se concentrar no documento ( CCerebro::setAtencao() )
+  - Worker -> Pede ao cerebro para analisar os dados do doumento ( CCerebro::analisaCaracteristicas() )
   - Cerebro -> Pede ao cortex para analisar as caracteristicas ( CCortex::analisaCaracteristicas() )
   - Cortex  -> Pede ao cerebro as caracteristicas doque ele esta com a atenção focada ( CCerebro::getCaracteristicasVisuais(),CCerebro::getCaracteristicasEspaciais(),CCerebro::getCaracteristicasEstatisticas(),CCerebro::getCaracteristicasClassificatorias() )
   - Cerebro -> Retira as caracteristicas do documento e passa ao cortex ( CDocumentoIA::getCaracteristicasVisuais(),CDocumentoIA::getCaracteristicasEspaciais(),CDocumentoIA::getCaracteristicasEstatisticas(),CDocumentoIA::getCaracteristicasClassificatorias() )
@@ -25,8 +25,8 @@
   - Cortex  -> Pede aos lobos para analisarem os dados montados ( CCortex::analisaCaracteristicas() )
   - Lobo    -> Analisa dados montados e treinando a rede neural ( CLobo::analisaDados() )
   - Cortex  -> Retorna status da analise ( 0 ou 1 ) para o cerebro ( CCortex::analisaCaracteristicas() )
-  - Cerebro -> Retorna status da analise ( 0 ou 1 ) para o griffon ( CCerebro::analisaCaracteristicas() )
- 
+  - Cerebro -> Retorna status da analise ( 0 ou 1 ) para o worker ( CCerebro::analisaCaracteristicas() )
+
  
 * O CORTEX
  
