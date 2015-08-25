@@ -1,8 +1,8 @@
 # AIcutter 
 
-* O CEREBRO 
+* O CÉREBRO 
 
-  O Cerebro obtem as caracteristicas e respostas do meio externo, em que no momento se dispoe, verifica as condicoes externas, apontando o alvo da concentracao e o objeto em tese.
+  O Cérebro obtem as características e respostas do meio externo, em que no momento se dispõe, verifica as condições externas, apontando o alvo da concentração e o objeto em tese.
  
   As caracteristicas provém originalmente dos problemas enfrentados no cotidiano da tarefa designada.
   Os problemas modelados são a identificação das linhas para formação dos artigos, e a identifação dos clientes relacionados aos artigos.
@@ -11,7 +11,7 @@
  
   - Derivam-se os problemas:
     - Classificação das linhas:
- 	   	Analise das caracteristicas de cada linha para definição de um tipo genérico descoberto a partir da repetição de caracteristicas visuais, espaciais ou estatisticas de todas as linhas do documento apresentado. Esta generalização é utilizada para condensar os tipos identificados em tipos basicos iguais aos outros do mesmo grugo, agrupados pela generalização.
+ 	   	Analise das caracteristicas de cada linha para definição de um tipo genérico descoberto a partir da repetição de caracteristicas visuais, espaciais ou estatísticas de todas as linhas do documento apresentado. Esta generalização é utilizada para condensar os tipos identificados em tipos básicos iguais aos outros do mesmo grugo, agrupados pela generalização.
  	   	
     - Classificação dos clientes
  
